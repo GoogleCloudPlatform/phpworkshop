@@ -57,3 +57,4 @@ echo "</pre>";
 * Go to [Google Compute Engine](https://cloud.google.com/console/compute)
 * Click on checkmark next to *instance-1* 
 * Click *Delete* button and confirm.
+

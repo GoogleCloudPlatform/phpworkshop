@@ -3,7 +3,7 @@
 ## Create Code
 Create an App.yaml containing:
 ~~~~yaml
-application: <your project id>
+application: <Your Project ID>
 version: alpha-001
 runtime: php55
 api_version: 1
@@ -24,7 +24,7 @@ handlers:
 Create a file named "common.php" containing:
 ~~~~php
 <?php
-    $project_id = "gcp-php-workshop";
+    $project_id = "<Your Project ID>";
     $bucket_name = $project_id . ".appspot.com";
 ?>
 ~~~~
@@ -78,7 +78,7 @@ Create a file named "process.php" containing:
 
 
 
-# Configure App in App Engine Launcher
+## Configure App in App Engine Launcher
 * Launch App Engine Launcher
 * Choose *File* 
 * Choose *Add Existing Application*
@@ -86,4 +86,4 @@ Create a file named "process.php" containing:
 * Click the *Run* button
 * Click the *Browse* button
 * 404 error will result
-* Point Browser at url with "upload.php" at end.
+* Append "upload.php" to browser link.

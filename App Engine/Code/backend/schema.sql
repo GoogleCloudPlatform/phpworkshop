@@ -6,10 +6,6 @@ CREATE TABLE `phpworkshop`.`image` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(2083) NULL,
   `url` VARCHAR(2083) NULL,
-  `label` VARCHAR(512) NULL,
-  `lat` DECIMAL NULL,
-  `lng` DECIMAL NULL,
-  `rawjson` TEXT NULL,
   PRIMARY KEY (`id`));
 
 GRANT ALL PRIVILEGES ON phpworkshop.* TO 'phpworkshop_user'@'localhost'
