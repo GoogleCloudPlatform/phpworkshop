@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-application: gcp-php-workshop
+application: <your project id>
 version: alpha-001
 runtime: php55
 api_version: 1
