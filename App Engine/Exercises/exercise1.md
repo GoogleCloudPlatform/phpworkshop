@@ -21,3 +21,9 @@ If no default bucket exists, create one:
 | Entity        | Name        | Access  |
 | ------------- |-------------| -----|
 | Group         | allUsers    | Read |
+
+*Why are we doing this?*  
+Becuase we want to serve up these images from our 
+    application, but by default our files are not shared. 
+    This step ensures that the iamges we upload are world 
+    readable by default.

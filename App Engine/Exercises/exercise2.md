@@ -21,6 +21,12 @@ handlers:
 
   ~~~~
 
+*What is an app.yaml file*
+An app.yaml file is a configuration file for App Engine. It 
+gives a number of instructions to App Engine for serving you 
+your application.  We are only touching the surface of what 
+you can configure in an app.yaml in this workshop. 
+
 Create a file named "common.php" containing:
 ~~~~php
 <?php
@@ -28,6 +34,9 @@ Create a file named "common.php" containing:
     $bucket_name = $project_id . ".appspot.com";
 ?>
 ~~~~
+
+*Where do I get my project ID?*
+It's accessible in the GUI for your project. 
 
 Create a file named "upload.php" containing:
 ~~~~php
@@ -75,8 +84,6 @@ Create a file named "process.php" containing:
 </body>
 </html>
 ~~~~
-
-
 
 ## Configure App in App Engine Launcher
 * Launch App Engine Launcher
